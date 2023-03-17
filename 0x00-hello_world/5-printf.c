@@ -1,4 +1,4 @@
-#include <stud.io>
+#include <stdio.h>
 
 /**
  * main prints "output"
