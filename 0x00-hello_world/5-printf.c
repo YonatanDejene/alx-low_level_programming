@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 /**
- * main prints "output"
+ * main - prints "outputs a given string"
  *
  *
- * Return always 0
+ * Return: Always 0.
  *
-*/
+ */
 
 int main(void)
 {
