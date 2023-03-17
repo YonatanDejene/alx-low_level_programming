@@ -1,9 +1,9 @@
 #include <stdio.h>
 
-/*
- * main- prints" the size of diffrent types of variables."
+/**
+ * main - prints" the size of diffrent types of variables."
  * The computer it is compiled and run on it
- * * Return: Always 0.
+ * Return: Always 0.
  */
 
 int main(void)
