@@ -2,7 +2,8 @@
 
 /**
  * main - prints "a string (give)"
- * Return: Always 
+ * compiling process and ..
+ * Return: Always 1. 
  */
 
 int main(void)
