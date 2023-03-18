@@ -5,8 +5,9 @@
 #include<stdio.h>
 
 /**
- * main: prints if a n"umber is negative,posetive or zero"
- * compilation,..
+ * main -  prints if a n"umber is negative,posetive or zero"
+ * Compilation,..
+ *
  * Return: Always 0.
  */
 
