@@ -5,7 +5,7 @@
 #include<stdio.h>
 
 /**
- * main: prints if a number is negative,posetive or zero
+ * main: prints if a n"umber is negative,posetive or zero"
  * compilation,..
  * Return: Always 0.
  */
@@ -20,7 +20,7 @@ int main(void)
 	if (n > 0)
 	{
 	printf("%d is positive\n", n);
-	}	
+	}
 	else if (n == 0)
 	{
 	printf("%d is zero\n", n);
