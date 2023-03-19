@@ -5,9 +5,8 @@
 #include <stdio.h>
 
 /**
- *main - prints a text according number  
+ *main- prints a text according number  
  *Return: Always (success)
- *
  */
 
 int main(void)
