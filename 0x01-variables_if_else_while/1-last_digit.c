@@ -5,13 +5,13 @@
 #include <stdio.h>
 
 /* main - prints a text according number  
- *  Return: Always (success)
+ * Return: Always (success)
  *
  */
 
 int main(void)
 {
-	int n ,lastd;
+	int n, lastd;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
