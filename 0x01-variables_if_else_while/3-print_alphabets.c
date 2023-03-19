@@ -2,7 +2,8 @@
 
 /**
  * main - prints alphabet both in upper and lower
- * Return : Always (Success)
+ * compiling..
+ * Return: Always (Success)
  *
  */
 
@@ -19,5 +20,6 @@ int main(void)
 	{
 	putchar(b);
 	}
+	putchar('\n');
 	return (0);
 }
