@@ -2,7 +2,7 @@
 
 /**
  * main - prints alphabet both in upper and lower
- * Return : Always (0)
+ * Return : Always (Success)
  *
  */
 
@@ -15,7 +15,6 @@ int main(void)
 	{
 	putchar(c);
 	}
-	putchar('\n');
 	for (b = 'A'; b <= 'Z'; b++)
 	{
 	putchar(b);
