@@ -6,21 +6,18 @@
  *
  */
 
-int main(void)
-{
-    int i = 1;
-    int j = 2;
-    int n;
-    int temp;
+int main() {
+    int n, first = 1, second = 2, next;
 
-    for (n = 0; n < 48; n++)
-    {
-        printf("%d", i);
-        printf(", ");
-        printf("%d", j);
-        temp = j;
-        j += i;
-        i = temp;
+    for (n = 0; n < 50; n++) {
+        if (n <= 1) {
+            next = n + 1;
+        } else {
+            next = first + second;
+            first = second;
+            second = next;
+        }
+        printf("%d ", next);
     }
 
     return 0;
