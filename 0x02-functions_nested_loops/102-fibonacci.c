@@ -8,18 +8,20 @@
 
 int main(void)
 {
-	int i = 1;
-	int j = 2;
-	int n;
-	int temp;
+    int i = 1;
+    int j = 2;
+    int n;
+    int temp;
 
-	for (n = 0; n < 50; n++)
-	{
-	printf(i);
-	printf(", ");
-	printf(j);
-	temp = j;
-	j += i;
-	i = temp;
-	}
+    for (n = 0; n < 48; n++)
+    {
+        printf("%d", i);
+        printf(", ");
+        printf("%d", j);
+        temp = j;
+        j += i;
+        i = temp;
+    }
+
+    return 0;
 }
