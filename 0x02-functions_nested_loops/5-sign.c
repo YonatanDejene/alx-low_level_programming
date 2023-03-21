@@ -3,7 +3,7 @@
 /**
  * print_sign - prints the sign of a given number
  * @n: is the number to check
- * Return: returns 1 if a number is greater than 0. 
+ * Return: Always Success.
  */
 
 int print_sign(int n)
@@ -19,5 +19,5 @@ int print_sign(int n)
 	return (0);
 	}
 	_putchar('+');
-	return (1);	
+	return (1);
 }
