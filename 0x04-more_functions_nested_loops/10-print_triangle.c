@@ -6,7 +6,7 @@
  * Return: empty
  */
 
-void print_tringle(int size)
+void print_triangle(int size)
 {
 	int x, y, z;
 	if (size <= 0)
