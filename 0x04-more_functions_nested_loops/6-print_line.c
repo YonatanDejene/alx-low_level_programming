@@ -3,7 +3,6 @@
 /**
  * print_line - prints a line
  * @n: the value passed
- * Return: Nothing to retrun
  */
 
 void print_line(int n)
