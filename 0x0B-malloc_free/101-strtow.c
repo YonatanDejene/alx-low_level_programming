@@ -16,7 +16,7 @@ int word_len(char *str)
 {
 	int index = 0, len = 0;
 
-	while(*(str + index) && *(str + index) != ' ' )
+	while (*(str + index) && *(str + index) != ' ')
 	{
 		len++;
 		index++;
@@ -26,7 +26,7 @@ int word_len(char *str)
 }
 
 /**
- * count_words - Counts the number of words contained 
+ * count_words - Counts the number of words contained
  * @str: The string to be searched.
  *
  * Return: The number of words contained
@@ -38,7 +38,6 @@ int count_words(char *str)
 
 	for (index = 0; *(str + index); index++)
 		len++;
-	
 	for (index = 0; index < len; index++)
 	{
 		if (*(str + index) != ' ')
