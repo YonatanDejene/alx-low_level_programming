@@ -2,9 +2,9 @@
 #include <stdlib.h>
 
 /**
- * array_range - ...
- * @min: ...
- * @max: ...
+ * array_range - a function that creates an array of integers
+ * @min: one of the elements
+ * @max: the max of the elements
  *
  * Return: integer value
  */
