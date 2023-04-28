@@ -9,7 +9,7 @@
  * Return: address
  */
 
-list_t *add_node(list_t **head, const char *str)
+list_t *add_node (list_t **head, const char *str)
 {
 	list_t *new;
 	unsigned int len = 0;
@@ -24,6 +24,6 @@ list_t *add_node(list_t **head, const char *str)
 	new->len = len;
 	new->next = (*head);
 	(*head) = new;
-
+	
 	return(*head);
 }
