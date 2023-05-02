@@ -9,7 +9,7 @@
 * Return: Int.
 */
 
-int (*get_op_func(char *s))(int,int)
+int (*get_op_func(char *s))(int, int)
 {
 	op_t ops[] = {
 		{"*", op_mul},
@@ -29,4 +29,3 @@ int (*get_op_func(char *s))(int,int)
 
 	return (0);
 }
-
