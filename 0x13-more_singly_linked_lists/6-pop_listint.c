@@ -3,7 +3,6 @@
 /**
  * pop_listint - Delete the first node
  * @head: pointer
- *
  * Return: The deleted data
  */
 
