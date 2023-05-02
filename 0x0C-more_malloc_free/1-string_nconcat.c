@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * string_concat - concatinates two strings
+ * string_nconcat - concatinates two strings
  * @s1: one of the strings that isto be concat.
  * @s2: the other string to be concat.
  * @n: intiger
