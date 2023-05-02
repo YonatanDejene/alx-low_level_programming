@@ -6,7 +6,7 @@
  * @min: one of the elements
  * @max: the max of the elements
  *
- * Return: integer value
+ * Return: int.
  */
 
 int *array_range(int min, int max)
