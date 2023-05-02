@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
-*_print_rev_recursion – Print reversed string
-*@s: String 2 b reversed
+* _print_rev_recursion – Print reversed string
+* @s: String 2 b reversed
 *
-*Return: -.
+* Return: --.
 */
 
 void _print_rev_recursion(char *s)
