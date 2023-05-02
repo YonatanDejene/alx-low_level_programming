@@ -1,4 +1,4 @@
-#include “main.h”
+#include "main.h"
 
 /**
 *_print_rev_recursion – Print reversed string
@@ -9,7 +9,7 @@
 
 void _print_rev_recursion(char *s)
 {
-	if (*s == ‘\0’)
+	if (*s == '\0')
 	{
 		return;
 	}
