@@ -19,6 +19,7 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 		return (0);
 
 	value_copy = strdup(value);
+
 	if (value_copy == NULL)
 		return (0);
 

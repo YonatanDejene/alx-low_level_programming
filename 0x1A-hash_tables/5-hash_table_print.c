@@ -25,10 +25,12 @@ void hash_table_print(const hash_table_t *ht)
 				printf(", ");
 
 			node = ht->array[j];
+
 			while (node != NULL)
 			{
 				printf("'%s': '%s'", node->key, node->value);
 				node = node->next;
+
 				if (node != NULL)
 					printf(", ");
 			}
